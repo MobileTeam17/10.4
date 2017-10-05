@@ -26,7 +26,7 @@ class MapViewController : UIViewController{
     
     let locationManager = CLLocationManager()
     var loginName = UserDefaults.standard.string(forKey: "userRegistEmail")
-    var theconnector = UserDefaults.standard.string(forKey: "theconnector")!
+    var theconnector = ""
     var telephone = ""
     
     @IBOutlet weak var locationInfo: UILabel!
